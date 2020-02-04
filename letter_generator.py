@@ -8,7 +8,7 @@ import zipfile
 SN_pattern = re.compile("^[0-9]+$")
 NUM_pattern = re.compile("[0-9]*\.?[0-9]+")
 
-def doc_generate(fname, templatefname, prefix):
+def generate(fname, templatefname, prefix):
 
 	wb = openpyxl.load_workbook(fname)
 	sheets = wb.get_sheet_names()
@@ -53,5 +53,5 @@ if __name__ == "__main__":
 	parser.add_argument("-p", dest="PREFIX", default="./", type=str, help="Output folder (default: ./)")
 	args = parser.parse_args()
 
-	doc_generate(args.DATAFILE, args.TEMPLATE, args.PREFIX)
+	generate(args.DATAFILE, args.TEMPLATE, args.PREFIX)
 
