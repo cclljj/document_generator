@@ -5,8 +5,10 @@ backports.shutil-get-terminal-size==1.0.0
 bdist-mpkg==0.5.0
 bonjour-py==0.3
 certifi==2018.10.15
+cffi==1.13.2
 chardet==3.0.4
 Click==7.0
+cryptography==2.8
 dash==0.29.0
 dash-core-components==0.37.2
 dash-html-components==0.13.2
@@ -20,11 +22,12 @@ Flask-Compress==1.4.0
 functools32==3.2.3.post2
 futures==3.2.0
 idna==2.7
+ipaddress==1.0.23
 ipython==5.8.0
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jdcal==1.4
-Jinja2==2.10
+Jinja2==2.11.1
 jsonschema==2.6.0
 jupyter-core==4.4.0
 kitchen==1.2.6
@@ -44,6 +47,7 @@ plotly==3.4.0
 prompt-toolkit==1.0.15
 ptyprocess==0.6.0
 py2app==0.7.3
+pycparser==2.19
 Pygments==2.2.0
 pyobjc-core==2.5.1
 pyobjc-framework-Accounts==2.5.1
@@ -93,9 +97,9 @@ singledispatch==3.4.0.3
 six==1.11.0
 tornado==5.1.1
 traitlets==4.3.2
-urllib3==1.24.1
+urllib3==1.25.8
 wcwidth==0.1.7
-Werkzeug==0.14.1
+Werkzeug==0.16.1
 xattr==0.6.4
 xlrd==1.2.0
 zope.interface==4.1.1
