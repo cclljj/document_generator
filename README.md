@@ -9,4 +9,4 @@ usage: letter_generator.py [-h] -d DATAFILE -t TEMPLATE [-p PREFIX]
 
 **TEMPLATE** is the template document in .docx format. Note that we use '{{FIELD}}' to mark the text that is going to be replaced by the program.
 
-**PREFIX** is the folder of the output files.
+**PREFIX** is the folder of the output files 
